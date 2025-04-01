@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div>
+            <p  id="screen"></p>
+        </div>
+
+        <div class="numbers">
+            <div class="eraser-line">
+                <button id="cleaner" onclick="cleanAll()">C</button>
+                <button id="back" onclick="backSpace()">←</button>
+                
+            </div>  
+
+            <div class="first-line">
+                <button id="num-7" onclick="print('7')">7</button>
+                <button id="num-8" onclick="print('8')">8</button>
+                <button id="num-9" onclick="print('9')">9</button>
+                <button id="divide" onclick="print('/')">/</button>
+            </div>  
+            <div class="second-line">
+                <button id="num-4" onclick="print('4')">4</button>
+                <button id="num-5" onclick="print('5')">5</button>
+                <button id="num-6" onclick="print('6')">6</button>
+                <button id="times" onclick="print('*')">x</button>
+            </div>  
+            <div class="third-line">
+                <button id="num-1" onclick="print('1')">1</button>
+                <button id="num-2" onclick="print('2')">2</button>
+                <button id="num-3" onclick="print('3')">3</button>
+                <button id="minus" onclick="print('-')">-</button>
+            </div>  
+            <div class="fourth-line">
+                <button id="num-0" onclick="print('0')">0</button>
+                <button id="num-dot" onclick="print('.')">.</button>
+                <button id="plus" onclick="print('+')">+</button>
+                <button id="result" onclick="calc()">=</button>
+            </div>  
+            
+
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+
+
+</html>

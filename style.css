@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:100px 650px;
+    margin:10px 650px 0;
     padding: 60px 0;
     background: rgb(230, 215, 131);
     border: 6px solid #111;
